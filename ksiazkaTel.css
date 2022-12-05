@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+body {
+  line-height: 30px;
+  font-family: monospace;
+  background-color: rgb(244, 245, 190);
+}
+
+div {
+  text-align: center;
+}
+
+b {
+  font-size: 20px;
+}
+
+#przycisk {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: monospace;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: rgb(228, 227, 227);
+}
+
+div#komunikaty {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-left: 450px;
+  margin-right: 450px;
+  background-color: rgb(228, 227, 227);
+}

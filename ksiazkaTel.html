@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Książka telefoniczna</title>
+
+    <script src="ksiazkaTel.js"></script>
+
+    <link rel="stylesheet" href="ksiazkaTel.css" />
+  </head>
+
+  <body>
+
+    <h1>Witaj w książce telefonicznej</h1>
+
+    <div>
+      <b>Wybór czynności:</b> <br />
+      <input type="radio" name="wyborCzynnosci" value="dodaj" /> Dodaj nowy
+      kontakt<br />
+      <input type="radio" name="wyborCzynnosci" value="pokaz" /> Pokaż
+      istniejący kontakt <br />
+      <input type="radio" name="wyborCzynnosci" value="usun" /> Usuń istniejący
+      kontakt <br />
+      <input type="radio" name="wyborCzynnosci" value="zmien" /> Zmień
+      istniejący kontakt <br />
+      <input type="radio" name="wyborCzynnosci" value="koniec" /> Koniec <br />
+    </div>
+
+    <div><input type="button" value="Rozpocznij" id="przycisk" /></div>
+
+    <div id="komunikaty">Wyniki wyszukiwań</div>
+    
+  </body>
+</html>
